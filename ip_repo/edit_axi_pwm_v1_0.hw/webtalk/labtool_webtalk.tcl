@@ -1,0 +1,28 @@
+webtalk_init -webtalk_dir d:/vivadoprojects/ip_repo/edit_axi_pwm_v1_0.hw/webtalk/
+webtalk_register_client -client project
+webtalk_add_data -client project -key date_generated -value "Mon Mar 24 22:03:39 2025" -context "software_version_and_target_device"
+webtalk_add_data -client project -key product_version -value "Vivado v2016.3 (64-bit)" -context "software_version_and_target_device"
+webtalk_add_data -client project -key build_version -value "1682563" -context "software_version_and_target_device"
+webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
+webtalk_add_data -client project -key registration_id -value "" -context "software_version_and_target_device"
+webtalk_add_data -client project -key tool_flow -value "labtool" -context "software_version_and_target_device"
+webtalk_add_data -client project -key beta -value "FALSE" -context "software_version_and_target_device"
+webtalk_add_data -client project -key route_design -value "FALSE" -context "software_version_and_target_device"
+webtalk_add_data -client project -key target_family -value "not_applicable" -context "software_version_and_target_device"
+webtalk_add_data -client project -key target_device -value "not_applicable" -context "software_version_and_target_device"
+webtalk_add_data -client project -key target_package -value "not_applicable" -context "software_version_and_target_device"
+webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
+webtalk_add_data -client project -key random_id -value "034f76ea23d65c1887c5c2478d28da84" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_id -value "f26b1d85-f746-41cd-a53e-c557e80ea1ea" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "1" -context "software_version_and_target_device"
+webtalk_add_data -client project -key os_name -value "Microsoft Windows 8 or later , 64-bit" -context "user_environment"
+webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
+webtalk_add_data -client project -key cpu_name -value "12th Gen Intel(R) Core(TM) i7-1255U" -context "user_environment"
+webtalk_add_data -client project -key cpu_speed -value "2611 MHz" -context "user_environment"
+webtalk_add_data -client project -key total_processors -value "1" -context "user_environment"
+webtalk_add_data -client project -key system_ram -value "16.000 GB" -context "user_environment"
+webtalk_register_client -client labtool
+webtalk_add_data -client labtool -key pgmcnt -value "00:00:00" -context "labtool\\usage"
+webtalk_add_data -client labtool -key cable -value "" -context "labtool\\usage"
+webtalk_transmit -clientid 2418754663 -regid "" -xml d:/vivadoprojects/ip_repo/edit_axi_pwm_v1_0.hw/webtalk/usage_statistics_ext_labtool.xml -html d:/vivadoprojects/ip_repo/edit_axi_pwm_v1_0.hw/webtalk/usage_statistics_ext_labtool.html -wdm d:/vivadoprojects/ip_repo/edit_axi_pwm_v1_0.hw/webtalk/usage_statistics_ext_labtool.wdm -intro "<H3>LABTOOL Usage Report</H3><BR>"
+webtalk_terminate
